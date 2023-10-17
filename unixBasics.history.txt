@@ -1,0 +1,12 @@
+  301  git push origin main
+  302  git rm oops
+  303  git commit -m 'removing oops'
+  304  git push origin main
+  306  vi oops2
+  307  git add oops2
+  308  git commit -m 'mistake again'
+  309  git push origin main
+  310  rm oops2
+  311  git add oops2
+  312  git commit -m 'removing oops2'
+  313  git push origin main
