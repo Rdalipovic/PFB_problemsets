@@ -20,5 +20,5 @@ user_input = input(f'Which of these things do you want to know Robs favorite: {"
 if user_input in fav_dict:
 	print(fav_dict[user_input])
 else:
-	input(f"Rob doesn't care about {user_input}, try something else: ")
+	print(f"Rob doesn't care about {user_input}, I gave you all the options and you still messed up, run the script again ")
 
