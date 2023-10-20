@@ -2,12 +2,14 @@
 import sys
 import re
 
-file = sys.argv[1]
+bionet_input = sys.argv[1]
+
+
 
 enzymeDict = {}
 count=0
 splitList = []
-with open(file, 'r') as bionet:
+with open(bionet_input, 'r') as bionet:
 	for line in bionet:
 		line = line.rstrip()
 		if count < 10:
@@ -16,6 +18,9 @@ with open(file, 'r') as bionet:
 		else:
 			key, value = re.split(r'\s\s+', line)
 			enzymeDict[key] = value
+
+
+
 
 
 
