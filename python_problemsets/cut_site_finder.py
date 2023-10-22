@@ -40,6 +40,11 @@ reEzDict = {}
 for ez in enzymeDict:
 	reEzDict[ez] = '('
 	for char in enzymeDict[ez]:
+		#if char == '^' and enzymeDict[ez].index(char) == 0: 
+		#	reEzDict[ez] += ')('
+		#elif (enzymeDict[ez].index(char) == (len(enzymeDict[ez]) -1)):
+		#	reEzDict[ez] += ')('
+		#else:
 		if char == 'C':
 			reEzDict[ez] += char
 		elif char == 'G':
@@ -49,7 +54,7 @@ for ez in enzymeDict:
 		elif char == 'T':
 			reEzDict[ez] += char
 		elif char == '^':
-			reEzDict[ez] += '[ATGC]*)([ATGC]*'
+			reEzDict[ez] += ')('
 		elif char == 'N':
 			reEzDict[ez] += '[ATGC]'
 		elif char == 'Y':
@@ -75,21 +80,23 @@ for ez in enzymeDict:
 	reEzDict[ez] += ')'
 
 
-for key in fasta_dict:
-	fragment_list = []
+for key in fastaDict:
+	seq = fastaDict[key]
 	for ez in reEzDict:
-		fasta_dict[key] = re.sub(rf'{ez}',r'\1^\2' , fasta_dict[key])
-		fragment_list = fasta_dict[key].split('^')
-		avg_length = len(fragment_list)
-		print(f' Sequence ID: {key}\n Enzyme Name: {ez}\n Number of Fragments: {len(fragment_list)}\n Average fragment length: {[len[x] for x in fragment_list]}\n Max Fragment Length: {[max(len[x]) for x in fragment_list]}\n Min Fragment Length: {[min(len(x)) for x in fragment_list]}) 
+		if len(re.findall(reEzDict[ez], seq)) > 0:
+			cut_seq = re.sub(rf'{reEzDict[ez]}',r'\1^\2' , seq)
+			fragment_list = cut_seq.split('^')
+		
+			frag_max = max([len(x) for x in fragment_list])
+			frag_min = min([len(x) for x in fragment_list])
+			avg_length = sum([len(x) for x in fragment_list])/len(fragment_list)
+			print(f' Sequence ID: {key}\n Enzyme Name: {ez}\n Number of Fragments: {len(fragment_list)}\n Average fragment length: {avg_length}\n Max Fragment Length: {frag_max}\n Min Fragment Length: {frag_min}\n')
 
 
-##For every sequence in fasta dict, check if there is a cut site for every enzyme in enztmeDict
 
 		
 			
 					
-			
 
 
 
