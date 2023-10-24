@@ -1,0 +1,70 @@
+
+Found perl:
+   /Users/pfb18/miniconda3/bin/perl
+   This is perl 5, version 34, subversion 0 (v5.34.0) built for darwin-thread-multi-2level
+
+Found java:
+   /Users/pfb18/miniconda3/bin/java
+   openjdk version "11.0.13" 2021-10-19
+
+Found canu:
+   /Users/pfb18/genomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 1 based on command line options.
+Fetch blocks/000002.dat
+
+Running block 000001 in query 000001
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 768
+--num-min-matches = 2
+--num-threads = 8
+--ordered-kmer-size = 12
+--ordered-sketch-size = 1536
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.73
+--version = false
+-f = 
+-h = false
+-k = 16
+-p = 
+-q = queries/000001
+-s = ./blocks/000001.dat
+
+Processing files for storage in reverse index...
+Current # sequences loaded and processed from file: 5000...
+Current # sequences loaded and processed from file: 10000...
+Current # sequences loaded and processed from file: 15000...
+Current # sequences stored: 5000...
+Current # sequences stored: 10000...
+Current # sequences stored: 15000...
+Stored 16200 sequences in the index.
+Processed 16200 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 8.727848427000001
+Time (s) to score and output to self: 7.461586334000001
+Opened fasta file /Users/pfb18/genomeAssembly/ecoli-pacbio-75/correction/1-overlapper/blocks/000002.dat.
+Processed 1324 to sequences.
+Time (s) to score, hash to-file, and output: 1.1084457440000002
+Total scoring time (s): 8.575497864
+Total time (s): 17.30349572
+MinHash search time (s): 8.47576299
+Total matches found: 138014
+Average number of matches per lookup: 14.644949066213922
+Average number of table elements processed per lookup: 921.5929541595925
+Average number of table elements processed per match: 62.929065167301864
+Average % of hashed sequences hit per lookup: 0.5841678194889853
+Average % of hashed sequences hit that are matches: 15.475162640916215
+Average % of hashed sequences fully compared that are matches: 87.34842155894788

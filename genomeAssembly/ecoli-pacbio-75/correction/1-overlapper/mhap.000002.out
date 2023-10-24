@@ -1,0 +1,60 @@
+
+Found perl:
+   /Users/pfb18/miniconda3/bin/perl
+   This is perl 5, version 34, subversion 0 (v5.34.0) built for darwin-thread-multi-2level
+
+Found java:
+   /Users/pfb18/miniconda3/bin/java
+   openjdk version "11.0.13" 2021-10-19
+
+Found canu:
+   /Users/pfb18/genomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 2 based on command line options.
+
+Running block 000002 in query 000002
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 768
+--num-min-matches = 2
+--num-threads = 8
+--ordered-kmer-size = 12
+--ordered-sketch-size = 1536
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.73
+--version = false
+-f = 
+-h = false
+-k = 16
+-p = 
+-q = queries/000002
+-s = ./blocks/000002.dat
+
+Processing files for storage in reverse index...
+Stored 2648 sequences in the index.
+Processed 2648 unique sequences (fwd and rev).
+Time (s) to read and hash from file: 0.460700431
+Time (s) to score and output to self: 0.818605789
+Total scoring time (s): 0.8192628350000001
+Total time (s): 1.280082898
+MinHash search time (s): 0.850735145
+Total matches found: 2999
+Average number of matches per lookup: 2.265105740181269
+Average number of table elements processed per lookup: 819.6767371601209
+Average number of table elements processed per match: 361.8712904301434
+Average % of hashed sequences hit per lookup: 0.6874309745256068
+Average % of hashed sequences hit that are matches: 12.443467076054935
+Average % of hashed sequences fully compared that are matches: 86.35185718399079

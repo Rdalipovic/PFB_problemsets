@@ -1,0 +1,60 @@
+
+Found perl:
+   /Users/pfb18/miniconda3/bin/perl
+   This is perl 5, version 34, subversion 0 (v5.34.0) built for darwin-thread-multi-2level
+
+Found java:
+   /Users/pfb18/miniconda3/bin/java
+   openjdk version "11.0.13" 2021-10-19
+
+Found canu:
+   /Users/pfb18/genomeAssembly/canu-2.2/bin/canu
+   canu 2.2
+
+Running job 2 based on command line options.
+/Users/pfb18/genomeAssembly/ecoli-pacbio-75/correction/1-overlapper
+Opened seqStore '../../ecoli-75.seqStore' for 'raw' reads.
+Dumping raw reads from 8101 to 9424 (inclusive).
+
+Starting mhap precompute.
+
+Running with these settings:
+--filter-threshold = 1.0E-7
+--help = false
+--max-shift = 0.2
+--min-olap-length = 500
+--min-store-length = 0
+--no-rc = false
+--no-self = false
+--no-tf = false
+--num-hashes = 768
+--num-min-matches = 2
+--num-threads = 8
+--ordered-kmer-size = 12
+--ordered-sketch-size = 1536
+--repeat-idf-scale = 10.0
+--repeat-weight = 0.9
+--settings = 0
+--store-full-id = true
+--supress-noise = 0
+--threshold = 0.73
+--version = false
+-f = ../../0-mercounts/ecoli-75.ms16.ignore.gz
+-h = false
+-k = 16
+-p = ./000002.input.fasta
+-q = .
+-s = 
+
+Reading in filter file ../../0-mercounts/ecoli-75.ms16.ignore.gz.
+Read in values for repeat 0 and 0
+Warning, k-mer filter file has zero elements.
+Initializing
+Initialized
+Time (s) to read filter file: 0.066540578
+Read in k-mer filter for sizes: []
+Processing FASTA files for binary compression...
+Processed 2648 sequences (fwd and rev).
+Read, hashed, and stored file ./000002.input.fasta to ./000002.input.dat.
+Time (s): 96.823946467
+Total time (s): 96.824091263

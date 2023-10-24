@@ -1,0 +1,361 @@
+repeatDetect()-- working on 19 tigs, with 4 threads.
+
+----------------------------------------
+Working on tig 1.
+annotateRepeatsOnRead()-- tig      1 read #214       5168    146749-152183    <-> place #  0 read    3868 in tig      6 <-> overlap at    146749-147604
+annotateRepeatsOnRead()-- tig      1 read #214       5168    146749-152183    <-> place #  1 read    4533 in tig      6 <-> overlap at    146749-147605
+annotateRepeatsOnRead()-- tig      1 read #668       3558    422894-417855    <-> place #  0 read    1436 in tig      3 <-> overlap at    417855-418490
+annotateRepeatsOnRead()-- tig      1 read #668       3558    422894-417855    <-> place #  1 read    3872 in tig      1 <-> overlap at    417855-419083
+annotateRepeatsOnRead()-- tig      1 read #668       3558    422894-417855    <-> place #  2 read    4434 in tig     11 <-> overlap at    417855-418921
+annotateRepeatsOnRead()-- tig      1 read #668       3558    422894-417855    <-> place #  3 read    4986 in tig      1 <-> overlap at    417855-418738
+annotateRepeatsOnRead()-- tig      1 read #668       3558    422894-417855    <-> place #  4 read    6361 in tig      2 <-> overlap at    417855-418477
+annotateRepeatsOnRead()-- tig      1 read #668       3558    422894-417855    <-> place #  5 read    7013 in tig     11 <-> overlap at    417855-419105
+annotateRepeatsOnRead()-- tig      1 read #668       3558    422894-417855    <-> place #  6 read    7367 in tig      1 <-> overlap at    417855-419195
+annotateRepeatsOnRead()-- tig      1 read #874       8181    549507-553157    <-> place #  0 read    1826 in tig      4 <-> overlap at    551970-553157
+annotateRepeatsOnRead()-- tig      1 read #874       8181    549507-553157    <-> place #  1 read    4859 in tig      7 <-> overlap at    552106-553157
+annotateRepeatsOnRead()-- tig      1 read #874       8181    549507-553157    <-> place #  2 read    5173 in tig     14 <-> overlap at    552007-553157
+annotateRepeatsOnRead()-- tig      1 read #874       8181    549507-553157    <-> place #  3 read    6197 in tig      2 <-> overlap at    551971-553157
+annotateRepeatsOnRead()-- tig      1 read #879       4126    564955-552184    <-> place #  0 read     623 in tig      5 <-> overlap at    552184-553094
+annotateRepeatsOnRead()-- tig      1 read #879       4126    564955-552184    <-> place #  1 read     913 in tig      4 <-> overlap at    552184-553038
+annotateRepeatsOnRead()-- tig      1 read #879       4126    564955-552184    <-> place #  2 read    2457 in tig      2 <-> overlap at    552184-553131
+annotateRepeatsOnRead()-- tig      1 read #879       4126    564955-552184    <-> place #  3 read    3252 in tig      2 <-> overlap at    552184-553174
+annotateRepeatsOnRead()-- tig      1 read #879       4126    564955-552184    <-> place #  4 read    4279 in tig     14 <-> overlap at    552184-552850
+annotateRepeatsOnRead()-- tig      1 read #879       4126    564955-552184    <-> place #  5 read    4280 in tig     14 <-> overlap at    552184-552836
+annotateRepeatsOnRead()-- tig      1 read #879       4126    564955-552184    <-> place #  6 read    5276 in tig      5 <-> overlap at    552184-553208
+annotateRepeatsOnRead()-- tig      1 read #969       7367    628495-608215    <-> place #  0 read    1106 in tig      3 <-> overlap at    608215-609314
+annotateRepeatsOnRead()-- tig      1 read #969       7367    628495-608215    <-> place #  1 read    1340 in tig      2 <-> overlap at    608215-609051
+annotateRepeatsOnRead()-- tig      1 read #969       7367    628495-608215    <-> place #  2 read    3558 in tig      1 <-> overlap at    608215-609553
+annotateRepeatsOnRead()-- tig      1 read #969       7367    628495-608215    <-> place #  3 read    8406 in tig      9 <-> overlap at    608215-609461
+Annotated with 24 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region    146749-147605    inside read    8547    133232-152949
+  region    417855-419195    inside read    3181    402281-424684
+  region    551970-553208    inside read     773    537639-554880
+  region    608215-609553    inside read    7748    597284-610510
+
+Region summary:
+  Unique interval        0-723656  
+
+----------------------------------------
+Working on tig 2.
+annotateRepeatsOnRead()-- tig      2 read #63         386     39882-33926     <-> place #  0 read    4665 in tig      2 <-> overlap at     38640-39882
+annotateRepeatsOnRead()-- tig      2 read #63         386     39882-33926     <-> place #  1 read    9116 in tig      2 <-> overlap at     38954-39882
+annotateRepeatsOnRead()-- tig      2 read #63         386     39882-33926     <-> place #  2 read    9183 in tig      2 <-> overlap at     38692-39882
+annotateRepeatsOnRead()-- tig      2 read #137       1340     86246-105611    <-> place #  0 read    3872 in tig      1 <-> overlap at    104860-105611
+annotateRepeatsOnRead()-- tig      2 read #137       1340     86246-105611    <-> place #  1 read    7367 in tig      1 <-> overlap at    104749-105611
+annotateRepeatsOnRead()-- tig      2 read #171       4665    103304-116583    <-> place #  0 read     386 in tig      2 <-> overlap at    115243-116583
+annotateRepeatsOnRead()-- tig      2 read #171       4665    103304-116583    <-> place #  1 read     653 in tig      2 <-> overlap at    115316-116583
+annotateRepeatsOnRead()-- tig      2 read #171       4665    103304-116583    <-> place #  2 read    1481 in tig      5 <-> overlap at    115399-116583
+annotateRepeatsOnRead()-- tig      2 read #171       4665    103304-116583    <-> place #  3 read    2642 in tig      2 <-> overlap at    115472-116583
+annotateRepeatsOnRead()-- tig      2 read #174       6361    108139-105559    <-> place #  0 read    3558 in tig      1 <-> overlap at    105559-106145
+annotateRepeatsOnRead()-- tig      2 read #448       6197    282929-299882    <-> place #  0 read    8181 in tig      1 <-> overlap at    298660-299882
+annotateRepeatsOnRead()-- tig      2 read #448       6197    282929-299882    <-> place #  1 read    8299 in tig      1 <-> overlap at    298662-299882
+annotateRepeatsOnRead()-- tig      2 read #463       9116    317599-291176    <-> place #  0 read     386 in tig      2 <-> overlap at    291176-292223
+annotateRepeatsOnRead()-- tig      2 read #463       9116    317599-291176    <-> place #  1 read     653 in tig      2 <-> overlap at    291176-292150
+annotateRepeatsOnRead()-- tig      2 read #463       9116    317599-291176    <-> place #  2 read    1481 in tig      5 <-> overlap at    291176-292068
+annotateRepeatsOnRead()-- tig      2 read #463       9116    317599-291176    <-> place #  3 read    2642 in tig      2 <-> overlap at    291176-291995
+annotateRepeatsOnRead()-- tig      2 read #539       7087    333387-332362    <-> place #  0 read    4187 in tig      8 <-> overlap at    332441-333387
+annotateRepeatsOnRead()-- tig      2 read #654       3252    417529-412189    <-> place #  0 read    1826 in tig      4 <-> overlap at    412189-413370
+annotateRepeatsOnRead()-- tig      2 read #654       3252    417529-412189    <-> place #  1 read    4126 in tig      1 <-> overlap at    412189-413172
+annotateRepeatsOnRead()-- tig      2 read #654       3252    417529-412189    <-> place #  2 read    5173 in tig     14 <-> overlap at    412189-413330
+annotateRepeatsOnRead()-- tig      2 read #654       3252    417529-412189    <-> place #  3 read    7452 in tig      1 <-> overlap at    412189-412932
+Annotated with 21 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     38640-39882     inside read    3776     26243-41078
+  region    104749-106145    inside read    3044     86967-109773
+  region    115243-116583    inside read    7789    100504-119780
+  region    291176-292223    inside read    6197    282929-299882
+  region    298660-299882    inside read    8542    288726-301798
+  region    332441-333387    inside read    4646    323700-343821
+  region    412189-413370    inside read    1334    399410-416955
+
+Region summary:
+  Unique interval        0-636442  
+
+----------------------------------------
+Working on tig 3.
+annotateRepeatsOnRead()-- tig      3 read #27        3696     18273-21275     <-> place #  0 read     249 in tig     17 <-> overlap at     20194-21275
+annotateRepeatsOnRead()-- tig      3 read #27        3696     18273-21275     <-> place #  1 read    1238 in tig     11 <-> overlap at     20093-21275
+annotateRepeatsOnRead()-- tig      3 read #27        3696     18273-21275     <-> place #  2 read    4133 in tig     11 <-> overlap at     20182-21275
+annotateRepeatsOnRead()-- tig      3 read #27        3696     18273-21275     <-> place #  3 read    7005 in tig     17 <-> overlap at     20172-21275
+annotateRepeatsOnRead()-- tig      3 read #30        1106     18986-41949     <-> place #  0 read    3872 in tig      1 <-> overlap at     18986-20007
+annotateRepeatsOnRead()-- tig      3 read #30        1106     18986-41949     <-> place #  1 read    4986 in tig      1 <-> overlap at     18986-19645
+annotateRepeatsOnRead()-- tig      3 read #30        1106     18986-41949     <-> place #  2 read    7013 in tig     11 <-> overlap at     18986-20028
+annotateRepeatsOnRead()-- tig      3 read #30        1106     18986-41949     <-> place #  3 read    7367 in tig      1 <-> overlap at     18986-20118
+annotateRepeatsOnRead()-- tig      3 read #359       1436    214859-202344    <-> place #  0 read    3558 in tig      1 <-> overlap at    202344-202942
+annotateRepeatsOnRead()-- tig      3 read #747       5322    433629-425151    <-> place #  0 read    3203 in tig      8 <-> overlap at    425151-425862
+annotateRepeatsOnRead()-- tig      3 read #747       5322    433629-425151    <-> place #  1 read    6853 in tig      9 <-> overlap at    425151-425691
+Annotated with 11 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     18986-20118     inside read    4504      1037-26481
+  region     20093-21275     inside read    4504      1037-26481
+  region    202344-202942    inside read    3586    192051-210033
+  region    425151-425862    inside read    3704    414385-430942
+
+Region summary:
+  Unique interval        0-504495  
+
+----------------------------------------
+Working on tig 4.
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  0 read     623 in tig      5 <-> overlap at    116161-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  1 read    1991 in tig      1 <-> overlap at    116719-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  2 read    2457 in tig      2 <-> overlap at    116124-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  3 read    3252 in tig      2 <-> overlap at    116080-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  4 read    4279 in tig     14 <-> overlap at    116417-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  5 read    4280 in tig     14 <-> overlap at    116431-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  6 read    5276 in tig      5 <-> overlap at    116050-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  7 read    8181 in tig      1 <-> overlap at    116079-117251
+annotateRepeatsOnRead()-- tig      4 read #188       1826    117251-115165    <-> place #  8 read    8299 in tig      1 <-> overlap at    116081-117251
+annotateRepeatsOnRead()-- tig      4 read #193        913    116215-133608    <-> place #  0 read    4126 in tig      1 <-> overlap at    116215-117064
+annotateRepeatsOnRead()-- tig      4 read #193        913    116215-133608    <-> place #  1 read    5173 in tig     14 <-> overlap at    116215-117222
+annotateRepeatsOnRead()-- tig      4 read #193        913    116215-133608    <-> place #  2 read    7452 in tig      1 <-> overlap at    116215-116828
+annotateRepeatsOnRead()-- tig      4 read #582       1508    348759-340118    <-> place #  0 read    7087 in tig      2 <-> overlap at    341990-343045
+Annotated with 13 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region    116050-117251    inside read    7331     96114-119385
+  region    341990-343045    inside read     800    331501-346818
+
+Region summary:
+  Unique interval        0-406781  
+
+----------------------------------------
+Working on tig 5.
+annotateRepeatsOnRead()-- tig      5 read #31        1481     16009-21240     <-> place #  0 read    4665 in tig      2 <-> overlap at     16009-17102
+annotateRepeatsOnRead()-- tig      5 read #31        1481     16009-21240     <-> place #  1 read    9116 in tig      2 <-> overlap at     16009-16791
+annotateRepeatsOnRead()-- tig      5 read #351        623    221271-223016    <-> place #  0 read    1826 in tig      4 <-> overlap at    221920-223016
+annotateRepeatsOnRead()-- tig      5 read #351        623    221271-223016    <-> place #  1 read    4126 in tig      1 <-> overlap at    222121-223016
+annotateRepeatsOnRead()-- tig      5 read #351        623    221271-223016    <-> place #  2 read    4859 in tig      7 <-> overlap at    222059-223016
+annotateRepeatsOnRead()-- tig      5 read #351        623    221271-223016    <-> place #  3 read    5173 in tig     14 <-> overlap at    221959-223016
+annotateRepeatsOnRead()-- tig      5 read #351        623    221271-223016    <-> place #  4 read    6197 in tig      2 <-> overlap at    221921-223016
+annotateRepeatsOnRead()-- tig      5 read #351        623    221271-223016    <-> place #  5 read    7452 in tig      1 <-> overlap at    222358-223016
+annotateRepeatsOnRead()-- tig      5 read #479       5276    319902-302819    <-> place #  0 read    4126 in tig      1 <-> overlap at    318836-319902
+annotateRepeatsOnRead()-- tig      5 read #479       5276    319902-302819    <-> place #  1 read    5173 in tig     14 <-> overlap at    318677-319902
+annotateRepeatsOnRead()-- tig      5 read #479       5276    319902-302819    <-> place #  2 read    7452 in tig      1 <-> overlap at    319074-319902
+Annotated with 11 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     16009-17102     inside read    7077       829-32218
+  region    221920-223016    inside read    8114    210970-235300
+  region    318677-319902    inside read    5029    307454-330881
+
+Region summary:
+  Unique interval        0-372093  
+
+----------------------------------------
+Working on tig 6.
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  0 read    1298 in tig     10 <-> overlap at    126243-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  1 read    1299 in tig     10 <-> overlap at    126289-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  2 read    1300 in tig     10 <-> overlap at    126345-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  3 read    1301 in tig     10 <-> overlap at    126289-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  4 read    1302 in tig     10 <-> overlap at    126275-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  5 read    2335 in tig     10 <-> overlap at    126164-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  6 read    5931 in tig     15 <-> overlap at    125085-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  7 read    6539 in tig      6 <-> overlap at    125586-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  8 read    7204 in tig     13 <-> overlap at    126310-126957
+annotateRepeatsOnRead()-- tig      6 read #190       8830    126957-124380    <-> place #  9 read    7640 in tig      6 <-> overlap at    125448-126957
+annotateRepeatsOnRead()-- tig      6 read #191       8006    125030-135925    <-> place #  0 read     273 in tig     13 <-> overlap at    125030-126748
+annotateRepeatsOnRead()-- tig      6 read #191       8006    125030-135925    <-> place #  1 read    6966 in tig     15 <-> overlap at    125030-126896
+annotateRepeatsOnRead()-- tig      6 read #191       8006    125030-135925    <-> place #  2 read    7396 in tig     13 <-> overlap at    125030-126951
+annotateRepeatsOnRead()-- tig      6 read #192       7555    125102-128812    <-> place #  0 read    2852 in tig      1 <-> overlap at    128039-130450
+annotateRepeatsOnRead()-- tig      6 read #193       4533    129606-132795    <-> place #  0 read    2852 in tig      1 <-> overlap at    128039-130450
+annotateRepeatsOnRead()-- tig      6 read #242       7640    166999-174719    <-> place #  0 read     273 in tig     13 <-> overlap at    166999-168338
+annotateRepeatsOnRead()-- tig      6 read #242       7640    166999-174719    <-> place #  1 read    5760 in tig     13 <-> overlap at    166999-167790
+annotateRepeatsOnRead()-- tig      6 read #242       7640    166999-174719    <-> place #  2 read    6966 in tig     15 <-> overlap at    166999-168482
+annotateRepeatsOnRead()-- tig      6 read #242       7640    166999-174719    <-> place #  3 read    7396 in tig     13 <-> overlap at    166999-168537
+annotateRepeatsOnRead()-- tig      6 read #242       7640    166999-174719    <-> place #  4 read    8636 in tig     13 <-> overlap at    166999-169465
+annotateRepeatsOnRead()-- tig      6 read #242       7640    166999-174719    <-> place #  5 read    8830 in tig      6 <-> overlap at    166999-168573
+Annotated with 21 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region    125030-126957    inside read    2788    104483-132999
+  region    128039-130450    inside read    2788    104483-132999
+  region    166999-169465    inside read    8595    151933-185736
+
+Region summary:
+  Unique interval        0-313472  
+
+----------------------------------------
+Working on tig 7.
+annotateRepeatsOnRead()-- tig      7 read #5         3944     12927-847       <-> place #  0 read    3203 in tig      8 <-> overlap at     12253-12927
+annotateRepeatsOnRead()-- tig      7 read #26        6974     17896-12364     <-> place #  0 read    7378 in tig      3 <-> overlap at     12364-13046
+annotateRepeatsOnRead()-- tig      7 read #120       4859     82147-71113     <-> place #  0 read     623 in tig      5 <-> overlap at     81183-82147
+annotateRepeatsOnRead()-- tig      7 read #120       4859     82147-71113     <-> place #  1 read    2457 in tig      2 <-> overlap at     81146-82147
+annotateRepeatsOnRead()-- tig      7 read #120       4859     82147-71113     <-> place #  2 read    3252 in tig      2 <-> overlap at     81102-82147
+Annotated with 5 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     12253-13046     inside read    2607       751-14749
+  region     81102-82147     inside read    1506     64495-83743
+
+Region summary:
+  Unique interval        0-247538  
+
+----------------------------------------
+Working on tig 8.
+annotateRepeatsOnRead()-- tig      8 read #79        3203     34313-42513     <-> place #  0 read    7378 in tig      3 <-> overlap at     41793-42513
+annotateRepeatsOnRead()-- tig      8 read #84        1886     47779-36167     <-> place #  0 read    7087 in tig      2 <-> overlap at     37478-38559
+annotateRepeatsOnRead()-- tig      8 read #393       6435    239574-251454    <-> place #  0 read    1459 in tig     10 <-> overlap at    248817-251503
+annotateRepeatsOnRead()-- tig      8 read #393       6435    239574-251454    <-> place #  1 read    3512 in tig     13 <-> overlap at    248253-251565
+annotateRepeatsOnRead()-- tig      8 read #393       6435    239574-251454    <-> place #  2 read    3868 in tig      6 <-> overlap at    250628-251454
+annotateRepeatsOnRead()-- tig      8 read #393       6435    239574-251454    <-> place #  3 read    4533 in tig      6 <-> overlap at    250628-251454
+annotateRepeatsOnRead()-- tig      8 read #393       6435    239574-251454    <-> place #  4 read    7034 in tig     13 <-> overlap at    248610-251565
+annotateRepeatsOnRead()-- tig      8 read #400       1685    249382-251565    <-> place #  0 read    1813 in tig     13 <-> overlap at    250412-251565
+Annotated with 8 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     37478-38559     inside read    5236     18184-43510
+  region     41793-42513     inside read    5236     18184-43510
+  region    248253-251565    inside read    5621    236264-252503
+
+Region summary:
+  Unique interval        0-253718  
+
+----------------------------------------
+Working on tig 9.
+annotateRepeatsOnRead()-- tig      9 read #55        6853     25119-26744     <-> place #  0 read    5322 in tig      3 <-> overlap at     26217-26744
+annotateRepeatsOnRead()-- tig      9 read #55        6853     25119-26744     <-> place #  1 read    7378 in tig      3 <-> overlap at     26236-26744
+annotateRepeatsOnRead()-- tig      9 read #205       1731    115408-109299    <-> place #  0 read    4279 in tig     14 <-> overlap at    114567-115408
+annotateRepeatsOnRead()-- tig      9 read #205       1731    115408-109299    <-> place #  1 read    4280 in tig     14 <-> overlap at    114581-115408
+annotateRepeatsOnRead()-- tig      9 read #213       8406    137370-117147    <-> place #  0 read    3872 in tig      1 <-> overlap at    117147-118303
+annotateRepeatsOnRead()-- tig      9 read #213       8406    137370-117147    <-> place #  1 read    4434 in tig     11 <-> overlap at    117147-118124
+annotateRepeatsOnRead()-- tig      9 read #213       8406    137370-117147    <-> place #  2 read    4986 in tig      1 <-> overlap at    117147-117941
+annotateRepeatsOnRead()-- tig      9 read #213       8406    137370-117147    <-> place #  3 read    7013 in tig     11 <-> overlap at    117147-118325
+annotateRepeatsOnRead()-- tig      9 read #213       8406    137370-117147    <-> place #  4 read    7014 in tig     11 <-> overlap at    117147-118326
+annotateRepeatsOnRead()-- tig      9 read #213       8406    137370-117147    <-> place #  5 read    7367 in tig      1 <-> overlap at    117147-118415
+annotateRepeatsOnRead()-- tig      9 read #213       8406    137370-117147    <-> place #  6 read    8248 in tig      1 <-> overlap at    117147-118386
+annotateRepeatsOnRead()-- tig      9 read #259       5664    144180-151545    <-> place #  0 read    1825 in tig     14 <-> overlap at    149901-151117
+annotateRepeatsOnRead()-- tig      9 read #269       3345    149951-151070    <-> place #  0 read    4279 in tig     14 <-> overlap at    150265-151070
+annotateRepeatsOnRead()-- tig      9 read #269       3345    149951-151070    <-> place #  1 read    4280 in tig     14 <-> overlap at    150279-151070
+Annotated with 14 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     26217-26744     inside read    6353     13878-37790
+  region    114567-115408    inside read    1945    100374-116188
+  region    117147-118415    inside read    8170    103403-127689
+  region    149901-151117    inside read    4671    130827-163446
+
+Region summary:
+  Unique interval        0-221031  
+
+----------------------------------------
+Working on tig 10.
+annotateRepeatsOnRead()-- tig     10 read #231       6459    164081-143245    <-> place #  0 read    6966 in tig     15 <-> overlap at    143245-144391
+annotateRepeatsOnRead()-- tig     10 read #231       6459    164081-143245    <-> place #  1 read    7396 in tig     13 <-> overlap at    143245-144447
+annotateRepeatsOnRead()-- tig     10 read #231       6459    164081-143245    <-> place #  2 read    8830 in tig      6 <-> overlap at    143245-144481
+annotateRepeatsOnRead()-- tig     10 read #232       1251    143396-147944    <-> place #  0 read     273 in tig     13 <-> overlap at    143396-144234
+annotateRepeatsOnRead()-- tig     10 read #240       7975    155466-145043    <-> place #  0 read    3562 in tig      8 <-> overlap at    146433-147986
+annotateRepeatsOnRead()-- tig     10 read #240       7975    155466-145043    <-> place #  1 read    4888 in tig     13 <-> overlap at    145043-146737
+Annotated with 6 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region    143245-144481    inside read    8760    129089-154853
+  region    145043-147986    inside read    8760    129089-154853
+
+Region summary:
+  Unique interval        0-188507  
+
+----------------------------------------
+Working on tig 11.
+annotateRepeatsOnRead()-- tig     11 read #95        7014     63571-57108     <-> place #  0 read    3025 in tig      1 <-> overlap at     57108-57713
+annotateRepeatsOnRead()-- tig     11 read #95        7014     63571-57108     <-> place #  1 read    3558 in tig      1 <-> overlap at     57108-58330
+annotateRepeatsOnRead()-- tig     11 read #95        7014     63571-57108     <-> place #  2 read    8406 in tig      9 <-> overlap at     57108-58238
+Annotated with 3 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     57108-58330     inside read    2161     42840-63004
+
+Region summary:
+  Unique interval        0-177023  
+
+----------------------------------------
+Working on tig 12.
+Annotated with 0 external overlaps.
+
+Dropping repeat regions contained in a read:
+  no regions contained in a read
+
+Region summary:
+  Unique interval        0-149346  
+
+----------------------------------------
+Working on tig 13.
+annotateRepeatsOnRead()-- tig     13 read #73        7204     40404-45215     <-> place #  0 read    6966 in tig     15 <-> overlap at     44668-45215
+annotateRepeatsOnRead()-- tig     13 read #77        7396     48401-44622     <-> place #  0 read    1764 in tig      1 <-> overlap at     44622-45561
+annotateRepeatsOnRead()-- tig     13 read #77        7396     48401-44622     <-> place #  1 read    2195 in tig      1 <-> overlap at     44622-45496
+Annotated with 3 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     44622-45561     inside read    2651     31916-58096
+
+Region summary:
+  Unique interval        0-168462  
+
+----------------------------------------
+Working on tig 14.
+annotateRepeatsOnRead()-- tig     14 read #32        4279     15051-17628     <-> place #  0 read    1826 in tig      4 <-> overlap at     16778-17969
+annotateRepeatsOnRead()-- tig     14 read #36        1825     16790-17969     <-> place #  0 read     623 in tig      5 <-> overlap at     16790-17910
+annotateRepeatsOnRead()-- tig     14 read #36        1825     16790-17969     <-> place #  1 read    1991 in tig      1 <-> overlap at     16790-17332
+annotateRepeatsOnRead()-- tig     14 read #36        1825     16790-17969     <-> place #  2 read    2457 in tig      2 <-> overlap at     16790-17947
+annotateRepeatsOnRead()-- tig     14 read #36        1825     16790-17969     <-> place #  3 read    3252 in tig      2 <-> overlap at     16790-17991
+annotateRepeatsOnRead()-- tig     14 read #36        1825     16790-17969     <-> place #  4 read    4126 in tig      1 <-> overlap at     16976-17969
+annotateRepeatsOnRead()-- tig     14 read #36        1825     16790-17969     <-> place #  5 read    8299 in tig      1 <-> overlap at     16790-17990
+annotateRepeatsOnRead()-- tig     14 read #37        5173     16830-31886     <-> place #  0 read    8181 in tig      1 <-> overlap at     16790-17992
+Annotated with 8 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     16778-17992     inside read    3122      1249-20214
+
+Region summary:
+  Unique interval        0-82341   
+
+----------------------------------------
+Working on tig 15.
+annotateRepeatsOnRead()-- tig     15 read #0         5424     17305-0         <-> place #  0 read    3562 in tig      8 <-> overlap at         0-954
+annotateRepeatsOnRead()-- tig     15 read #9         6966     20372-3004      <-> place #  0 read    1764 in tig      1 <-> overlap at      3004-3911
+annotateRepeatsOnRead()-- tig     15 read #9         6966     20372-3004      <-> place #  1 read    2195 in tig      1 <-> overlap at      3004-3846
+annotateRepeatsOnRead()-- tig     15 read #9         6966     20372-3004      <-> place #  2 read    7204 in tig     13 <-> overlap at      3004-3578
+annotateRepeatsOnRead()-- tig     15 read #9         6966     20372-3004      <-> place #  3 read    7555 in tig      6 <-> overlap at      3004-4799
+annotateRepeatsOnRead()-- tig     15 read #9         6966     20372-3004      <-> place #  4 read    8006 in tig      6 <-> overlap at      3004-4868
+Annotated with 6 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region         0-954       inside read    5424         0-17305
+  region      3004-4868      inside read    5424         0-17305
+
+Region summary:
+  Unique interval        0-50934   
+
+----------------------------------------
+Working on tig 16.
+Annotated with 0 external overlaps.
+
+Dropping repeat regions contained in a read:
+  no regions contained in a read
+
+Region summary:
+  Unique interval        0-85255   
+
+----------------------------------------
+Working on tig 17.
+annotateRepeatsOnRead()-- tig     17 read #50        7005     40252-38573     <-> place #  0 read    3696 in tig      3 <-> overlap at     38573-39669
+Annotated with 1 external overlaps.
+
+Dropping repeat regions contained in a read:
+  region     38573-39669     inside read     417     11373-40983
+
+Region summary:
+  Unique interval        0-41975   
+
+----------------------------------------
+Working on tig 18.
+Annotated with 0 external overlaps.
+
+Dropping repeat regions contained in a read:
+  no regions contained in a read
+
+Region summary:
+  Unique interval        0-13448   
