@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+
+import sys
+
+arg_input = sys.argv[1]
+
+tests = ['BL50','BP62','VT10','VT160','VT20','VT40','VT80']
+
+fileNames = []
+if arg_input == 'rand5-200':
+    for test in tests:
+        fileNames.append('ss_' + arg_input + '_v_qfo_' + test + '.txt')
+else:
+    print('Incorrect Input for file naming')
+    exit(1)
+
+field_names = ['qseqid', 'sseqid', 'percid', 'alen', 'mismat', 'gaps', 'q_start', 'q_end', 's_start', 's_end', 'evalue', 'bits']
+
+the_data = {}
+index = 0
+for file in fileNames:
+    with open(file, 'r') as result:
+    
+        for line in result:
+            line = line.rstrip()
+            if line.startswith('#') == False:
+                the_data[tests[index]] = dict(zip(field_names, line.split('\t')))
+                break
+    index += 1
+
+for key in the_data:
+    print(f'{key}\t{the_data[key]["percid"]}\t{the_data[key]["alen"]}\t{the_data[key]["evalue"]}')

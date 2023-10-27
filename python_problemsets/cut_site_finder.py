@@ -40,11 +40,6 @@ reEzDict = {}
 for ez in enzymeDict:
 	reEzDict[ez] = '('
 	for char in enzymeDict[ez]:
-		#if char == '^' and enzymeDict[ez].index(char) == 0: 
-		#	reEzDict[ez] += ')('
-		#elif (enzymeDict[ez].index(char) == (len(enzymeDict[ez]) -1)):
-		#	reEzDict[ez] += ')('
-		#else:
 		if char == 'C':
 			reEzDict[ez] += char
 		elif char == 'G':
@@ -78,7 +73,6 @@ for ez in enzymeDict:
 		elif char == 'V':
 			reEzDict[ez] += '[GCA]'
 	reEzDict[ez] += ')'
-
 
 for key in fastaDict:
 	seq = fastaDict[key]
