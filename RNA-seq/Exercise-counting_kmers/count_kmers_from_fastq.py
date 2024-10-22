@@ -113,7 +113,7 @@ def main():
         entropy_list = [] #list that will hold lists of elements that will be summed together
         for b in freq:
             
-            hellow = abs( freq[b] * (freq[b]/len(kmer) ) * math.log2( freq[b]/len(kmer) )) #Shannon Entropy formula
+            hellow = abs( (freq[b]/len(kmer) ) * math.log2( freq[b]/len(kmer) )) #Shannon Entropy formula
             entropy_list.append(hellow)
        
         entropy[kmer] = sum(entropy_list) #sum to get entropy value and store in in a dict with the kmer as the key
